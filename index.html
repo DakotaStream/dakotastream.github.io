@@ -1,79 +1,60 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Nxeed's Tree Menu</title>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script type="text/javascript" src="js/jquery.ntm.js"></script>
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="themes/default/css/theme.css" />
+<html class="ts">
 
-        <script type="text/javascript">
-            $(document).ready(function() {
-                $('.menu').ntm();
-            });
-        </script>
-    </head>
-    <body>
-        <div class="wrapper">
-            <h1>Mike<br />Tree Menu</h1>
-            <div class="ntm-default menu" id="ntm-default">
-                <ul>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Ipsum</a></li>
-                    <li><a href="#">Dolor</a>
-                        <ul>
-                            <li><a href="#">Lorem</a></li>
-                            <li><a href="#">Ipsum</a></li>
-                            <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a>
-                                <ul>
-                                    <li><a href="#">Lorem</a></li>
-                                    <li><a href="#">Ipsum</a></li>
-                                    <li><a href="#">Dolor</a>
-                                        <ul>
-                                            <li><a href="#">Lorem</a></li>
-                                            <li><a href="#">Ipsum</a></li>
-                                            <li><a href="#">Dolor</a></li>
-                                            <li><a href="#">Sit</a></li>
-                                            <li><a href="#">Amet</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Sit</a>
-                                        <ul>
-                                            <li class="selected"><a href="#">Lorem</a></li>
-                                            <li><a href="#">Ipsum</a></li>
-                                            <li><a href="#">Dolor</a></li>
-                                            <li><a href="#">Sit</a></li>
-                                            <li><a href="#">Amet</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Amet</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Sit</a>
-                                <ul>
-                                    <li><a href="#">Lorem</a></li>
-                                    <li><a href="#">Ipsum</a></li>
-                                    <li><a href="#">Dolor</a></li>
-                                    <li><a href="#">Sit</a></li>
-                                    <li><a href="#">Amet</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Amet</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Sit</a>
-                        <ul>
-                            <li><a href="#">Lorem</a></li>
-                            <li><a href="#">Ipsum</a></li>
-                            <li><a href="#">Dolor</a></li>
-                            <li><a href="#">Sit</a></li>
-                            <li><a href="#">Amet</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Amet</a></li>
-                </ul>
-            </div>
+<head>
+  <title>Stylie Treeviews</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/example.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/stylie.treeview.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <meta name="author" content="The CSS Ninja">
+  <meta name="keywords" content="CSS, Tree menu, checked pseudo-class, CSS Ninja">
+  <meta name="description" content="Create a pure CSS tree folder structure with collapsible folders utilising checkboxes along with the checked pseudo-class">
+  <meta name="robots" content="all">
+  <meta name="copyright" content="The CSS Ninja">
+
+
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <!-- <script src='js/example.min.js'></script> -->
+  <script src='js/example_build.js'></script>
+</head>
+
+<body class="ts--container ts-no-x-overflow">
+  <main class="ts-container ">
+    <article class="ts-text-container">
+      <section class="ts-no-x-overflow">
+        <h1>Pure CSS Treeview Effects
+        </h1>
+        <h3>
+          <small>Some inspiration for different treeview appearances</small>
+        </h3>
+        <div class="ts-row">
+          <div id="tree-example-1" class="ts-col-span6 ">
+          </div>
+          <div id="tree-example-2" class="ts-col-span6 ">
+          </div>
         </div>
-    </body>
+      </section>
+    </article>
+  </main>
+  <!-- the overlay element -->
+  <script>
+  (function(i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function() {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-52892914-6', 'auto');
+  ga('send', 'pageview');
+  </script>
+</body>
+
 </html>
