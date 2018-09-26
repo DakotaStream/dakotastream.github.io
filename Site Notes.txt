@@ -1,2 +1,0 @@
-Push changes:
-git push -u origin master
