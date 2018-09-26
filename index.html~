@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>filetree.css Demo</title>
+    <link rel="stylesheet" href="css/filetree.css">
+    <link rel="stylesheet" href="css/centered.css">
+<meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" />
+</head>
+<body>
+<div id="centered">
+    <h1>CSLA EE Laboratories</h1>
+    <ul class="filetree">
+        <li>
+            <input type="checkbox" id="level1-1">
+            <label for="level1-1">Locker&nbsp;Checkout</label>
+            <ul>
+                <li>
+                    <a href="http://www.calstatela.edu/academic/ecst/ee/labs/pdf/forms/210_locker_checkout.pdf">EE-210</a>
+                    &nbsp;&nbsp;<a href="http://www.calstatela.edu/academic/ecst/ee/labs/breadboard/index.htm"><font size="1">Required Breadboard</font></a><br>
+
+                    <a href="http://www.calstatela.edu/academic/ecst/ee/labs/pdf/forms/211_%20locker_checkout.pdf">EE-211</a>
+                    &nbsp;&nbsp;<a href="http://www.calstatela.edu/academic/ecst/ee/labs/breadboard/index.htm"><font size="1">Required Breadboard</font></a><br>
+
+                    <a href="http://www.calstatela.edu/academic/ecst/ee/labs/pdf/forms/246_locker_checkout.pdf">EE-246</a>
+                    &nbsp;&nbsp;<a href="http://www.calstatela.edu/academic/ecst/ee/labs/breadboard/index.htm"><font size="1">Required Breadboard</font></a><br>
+
+                    <a href="http://www.calstatela.edu/academic/ecst/ee/labs/pdf/forms/317_locker_%20checkout.pdf">EE-317</a>
+                    &nbsp;&nbsp;<a href="http://www.calstatela.edu/academic/ecst/ee/labs/breadboard/index.htm"><font size="1">Required Breadboard</font></a><br>
+
+                    <a href="http://www.calstatela.edu/academic/ecst/ee/labs/pdf/forms/340_ locker_checkout.pdf">EE-340</a>
+                    &nbsp;&nbsp;<a href="http://www.calstatela.edu/academic/ecst/ee/labs/breadboard/index.htm"><font size="1">Required Breadboard</font></a><br>
+
+                    <a href="http://www.calstatela.edu/academic/ecst/ee/labs/srd.html">EE-496 Design Station</a><br>
+                    <a href="http://www.calstatela.edu/academic/ecst/ee/labs/pdf/forms/fpga.pdf">FPGA Board</a><br>
+                    <a href="http://www.calstatela.edu/academic/ecst/ee/labs/pdf/forms/labcardkey.pdf">Card Key Access</a>
+                </li>
+                <li>my.js</li>
+                <li>core.js</li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox">
+            <input type="checkbox" id="level1-2">
+            <label for="level1-2">css</label>
+            <ul>
+                <li>my.css</li>
+                <li>core.css</li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+</body>
+</html>
