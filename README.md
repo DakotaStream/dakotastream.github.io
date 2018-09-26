@@ -1,18 +1,43 @@
-![](http://rafaelthca.github.io/aimaraJS/images/aimarajs2.png)
-###  Pure Javascript TreeView Component
+# filetree.css [![npm](https://img.shields.io/npm/v/filetree-css.svg)]()[![npm](https://img.shields.io/npm/l/filetree-css.svg)]()
+Implement function and style of file tree view using CSS only. **No JavaScript**.
 
-This javascript component was created as a response to other TreeView components that did not satisfied my project requirements.
+[![NPM](https://nodei.co/npm/filetree-css.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/filetree-css/)
 
-The main objective of this component is to be able to dinamically add and remove nodes from the tree as fast as possible and also offer features to interact with the tree.
+![demo](./doc/demo.gif)
 
-[Component First Usage](https://github.com/rafaelthca/aimaraJS/wiki/Usage)
+# Installation
 
-[Complete Example](http://rafaelthca.github.io/aimaraJS/Example.html)
+in Cli
 
-Features:
+```
+npm i filetree-css --save
+```
 
-* Create an initial tree structure and render it;
-* Add and remove nodes in real time, when the tree is already rendered;
-* Display nodes with icons;
-* Custom events when nodes are opened and closed;
-* Context menus for nodes.
+in HTML
+
+```
+<link rel="stylesheet" href="./node_modules/filetree-css/filetree.css">
+```
+
+
+# Usage
+
+```
+<ul class="filetree">
+  <li>
+    <input type="checkbox" id="level1-1">
+    <label for="level1-1">js</label>
+    <ul>
+      <li>my.js</li>
+      <li>core.js</li>
+    </ul>
+  </li>
+</ul>
+```
+
+# Contributing
+Welcome :)
+
+# License
+MIT
+
