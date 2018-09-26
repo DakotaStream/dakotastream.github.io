@@ -1,0 +1,9 @@
+﻿body {
+    text-align: center; /* this is required for old versions of IE */
+}
+
+#centered {
+    width: 400px; /* this is the width of the center column (px, em or %) */
+    text-align: left; /*resets the text alignment back to left */
+    margin: 0 auto; /* auto centers the div in standards complaint browsers */
+}
