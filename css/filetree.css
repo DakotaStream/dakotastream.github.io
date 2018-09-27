@@ -1,6 +1,11 @@
 /**
  * filetree.css
+ *   https://github.com/moschan/filetree.css#readme
  * */
+ul {padding-left: 0px;}
+li {padding-left: 0px;}
+ul ul {padding-left: 0px;}
+li li {padding-left: 33px;}
 
 :root {
   font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -11,6 +16,7 @@
 }
 
 .filetree ul {
+  padding-left: 0px;
   height: 0;
   overflow: hidden;
 }
