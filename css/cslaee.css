@@ -7,3 +7,18 @@
     text-align: left; /*resets the text alignment back to left */
     margin: 0 auto; /* auto centers the div in standards complaint browsers */
 }
+
+f1 {
+  font-weight: 100;
+  font-variant-ligatures: normal;
+  font-size: 0.5rem;
+  letter-spacing: 1px;
+}
+
+f2 {
+  font-weight: 100;
+  font-variant-ligatures: normal;
+  font-size: 0.5rem;
+  letter-spacing: 1px;
+}
+
