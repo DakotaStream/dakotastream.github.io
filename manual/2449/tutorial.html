@@ -1,0 +1,45 @@
+EE-2449 Tutorial
+
+ExpressSCH  TUTORIAL
+
+ 
+
+ExpressSCH is part of a two-program package called ExpressPCB. ExpressSCH is a schematic-capture program used to draw circuit wiring diagrams; The other part, also called ExpressPCB, is a printed-circuit-board program used to lay out circuit components on a printed circuit board. Since the latter function is not part of what you do in EE-246, this tutorial focuses only on ExpressSCH.
+
+You can download ExpressPCB from the net for free. Installation should put two icons on the screen. The one for ExpressSCH is shown at right; ignore or delete the one for ExpressPCB.
+
+ 
+
+When you open the program, you will see the drawing area with grid markings. When you place objects on the screen, they will snap to the grid. (This feature and grid spacing can be changed, but there will probably not be a need for that.)
+
+ 
+
+At the top there are menu items and below them a row of buttons including zoom in and out.  To find the components you'll want to place in the drawing area, right click anywhere in the area and select Component Manager (actually "Component and symbol Manager", referred to below as CSM). In the Library Components window, you'll find the gates and chips you'll be using listed right after the connectors. Skip the 74ALS entries and select from the 74LS series starting with 74LS00. (Note: the letters between 74 and the number at the end represent the electrical, not the logical, properties of the device. Thus, designations like 7400, 74LS00, 74HC00 all describe chips with four 2-input NAND gates. Their logic is the same even though they are somewhat different electrically.)
+
+ 
+
+If you left-click on, say, 74LS00, you will see all four gates displayed on the right. Although the gates all belong to one chip, they are displayed separately (not inside a chip rectangle). The same is true for flipflops and, in general, for any chip containing multiple identical elements. Notice that pin numbers are different for each gate, as they should be. Also, the top gate shows the power and ground pins (14 and 7) for this chip. They serve to remind you not to leave them unconnected.
+
+ 
+
+Now double click on 74LS00. You will see all four gates in the drawing area. If you don't need all four in your circuit, delete the extra ones from the bottom up. With the mouse, simply draw a box around the extras with the mouse. Hit the Delete key and they're gone. Then click in the area to turn the remaining ones black.You can enlarge the symbols with the mouse's wheel or by clicking on the zoom button Å at the top of the screen.
+
+ 
+
+A note about blue color: to activate a symbol, click anywhere on its outline--not inside the symbol--to turn the outline blue. You can now drag it to another place. Or, if you double-click on any part of the outline, you open a window in which you can enter a label for the gate (a part ID).
+
+ 
+
+For example: gates of the first chip you select should be labeled U1 and each gate should also receive a letter to distinguish it from the others. So the top NAND's ID should be U1A, the next down should be U1B, etc. The next chip you select should be labeled U2. If it also contains multiple identical elements, their IDs should be U2A, U2B, etc..
+
+ 
+
+Suppose you want to build a circuit for the function F = WX + X'Y. You will need 2 AND gates (74LS08) one inverter (74LS04) and an OR gate (74LS32). To find the 74LS32, scroll down the CSM listing past the 74LS0..'s, the 74LS1..'s and the 74LS2..'s to the beginning of the 74LS3..'s series.
+
+ 
+
+Start by placing all 4 AND gates, 6 inverters, and 4 OR gates in the drawing area. Delete the last 2 ANDs and ORs and the last 5 inverters. The screen should look as shown below at the left.
+
+ 
+
+The inverter has been rotated as shown (click the Rotate 90º button at the top until you get the orientation you want). Also, the gates have been moved into desired positions. Next, the ANDs will be labeled U1A and U1B, the inverter U2A, and the OR will be U3A. Just click twice on the outline of each gate to open the ID assignment window. The result is at the right. (The inverter's text has been dragged a bit to the left so as not to interfere with the wires, which will be added later.
