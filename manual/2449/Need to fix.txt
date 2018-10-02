@@ -1,0 +1,65 @@
+@@ -10,11 +10,11 @@ LABORATORY MANUAL
+ 
+                          ENGINEERING
+ CALIFORNIA STATE UNIVERSITY, LOS ANGELES
+ INTRODUCTION                                                     INTRO (pg.1)
+ 
+-                      (EE2499_Introduction.doc revised 1/1/18)
++                      (EE2449_Introduction.doc revised 1/1/18)
+ 
+ A. PARTS AND TOOLS:
+ 
+ This lab involves designing, building, and testing circuits using design concepts from the Digital
+ Logic course EE-2440. A locker (plus lock) in the lab room C-251 containing parts and equipment
+@@ -327,11 +327,11 @@ Pulser Debouncer, Illustrator drawing
+ 
+                                        10
+ INTRO (pg.11)
+ 
+                    11
+-IMPLEMENTING AND TROUBLESHOOTING DESIGNS (246debug.doc jgl 1-31-13)
++IMPLEMENTING AND TROUBLESHOOTING DESIGNS (2449debug.doc jgl 1-31-13)
+ 
+ 1) Wiring techniques:
+ One technique to help you avoid wiring errors is to make a photocopy of your design. Then, as you
+ connect wire after wire, use an accent marker to color in each completed connection. Another thing you
+ can do is to place a piece of tape or a small peel-off label indicating the unit number on each chip. Now,
+@@ -828,11 +828,11 @@ Binary to Hexadecimal (Base 16) Conversion Example (A=10, B=11, C=12, D=13, E=14
+          hex or octal, will require fewer digits to represent a binary number? And 2) given that a byte is
+          comprised of 8 bits, which base, hex or octal, can be more compactly used to represent an 8-bit (1-
+          byte) binary number? Assume a byte value of 11111111 and convert to octal and hex. Write your
+          answers, including explanations, in your lab journal.
+ 
+-                           Table 2.1. Numbers 0 to 31 and 56 to 71 in decimal (base 10),
++                            Table 2.1. Numbers 0 to 31 and 56 to 71 in decimal (base 10),
+                               binary (base 2), octal (base 8), and hexadecimal (base 16).
+ 
+ ----------------------------------------------------------------------------------------------------------------------------
+ 
+ 2.2* (* = lab work) Refer to Figure 2.1 below. The 7493 chip is a 4-bit "modulo-16" counter. "Modulo
+@@ -3380,11 +3380,10 @@ experiment as an example.
+ 
+ Use two 7474 dual flip-flop chips to connect a serial-in, parallel-out shift register as shown in Fig. 1. Draw
+ the wiring diagram in your lab notebook (refer to the IC specifications document for pin numbers or use
+ ExpessSCH). Connect L1â€“L4 to four LEDs (from the LED bar graph), SW1 and SW2 to switches, and
+ CLK to a pulser. Implement your design on your breadboard. Test circuit behavior as follows.
+-
+  (1) Initially, set SW2 to logic 0 to clear all flip-flops (diagram shows SW2 as active-low).
+  (2) Now set both SW2 and SW1 to logic 1. Flipflops are no longer being cleared and serial input is high.
+  (3) Push the pulser button several times to allow a series of logic 1's to be shifted into the shift register.
+  (4) Change SW1 to logic 0 and repeat the experiment.
+ Record your observations in your laboratory notebook. You will use this circuit in part 12.4 so do not
+@@ -3516,11 +3515,11 @@ b) Explain to your instructor how you got the values you show in the four diagra
+   CALIFORNIA STATE UNIVERSITY
+                 LOS ANGELES
+ 
+ Department of Electrical and Computer Engineering
+ 
+-               EE-246 Digital Logic Lab
++              EE-2449 Digital Logic Lab
+ 
+               EXPERIMENT 13
+          ITERATIVE CIRCUITS
+ 
+ Text: Mano, Digital Design, Ch's 3, 4 and 6.                       7486: XOR.
+

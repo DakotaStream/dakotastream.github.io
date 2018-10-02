@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\icon",
+    "\\icon\\src",
+    "\\src"
   ],
+  "SelectedNode": "\\manual",
   "PreviewInSolutionExplorer": false
 }
