@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+
+<head>
+  <title>Page not found | Cal State LA</title>
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="http://www.calstatela.edu/favicon.ico" />
+<meta name="keywords" content="Cal State LA, CSULA, CSU Los Angeles" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.calstatela.edu/" />
+<link rel="shortlink" href="http://www.calstatela.edu/" />
+<meta property="og:site_name" content="Cal State LA" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.calstatela.edu/" />
+<meta property="og:title" content="Cal State LA" />
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <link rel="stylesheet" href="http://www.calstatela.edu/sites/default/files/css/css_FV8dd0BDvj1-GVEsMZ947JuLDXPrypqRWZpMTM6dA64.css" media="all" />
+<link rel="stylesheet" href="http://www.calstatela.edu/sites/default/files/css/css_KLXbUEzITkYuWCpgH_F92yPh1Ga5-bbN2hS1_XtB6ww.css" media="all" />
+<link rel="stylesheet" href="http://www.calstatela.edu/sites/default/files/css/css_10n0Z3nXTR9qLhiHyFB4EAjrFVw_mvBG6kRyK7WgmGk.css" media="all" />
+<link rel="stylesheet" href="http://www.calstatela.edu/sites/default/files/css/css_pG29XYKyqP5tPcKeIU-vQUARhaBG4p7l-YFGgI_fRWA.css" media="all" />
+<style>#back-top{right:40px;}#back-top span#button{background-color:#222;}#back-top span#button:hover{opacity:1;filter:alpha(opacity = 1);background-color:#555;}span#link{display :none;}
+</style>
+<link rel="stylesheet" href="http://www.calstatela.edu/sites/default/files/css/css_-Fx31PxbqDlheUskRK6a9JIw7VppXUe-icJPsG4Kt-Q.css" media="all" />
+
+<!--[if lt IE 10]>
+<link rel="stylesheet" href="http://www.calstatela.edu/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="all" />
+<![endif]-->
+<link rel="stylesheet" href="http://www.calstatela.edu/sites/default/files/css/css_6zv9B8rK6tqaI6GpEkFYCBbwp8_bP_J1xctdQMoOH-M.css" media="all" />
+<link rel="stylesheet" href="http://www.calstatela.edu/sites/default/files/css/css_mNGgDfRWP-h9mVk3REkY2x9m4HCDd3_cK8pn3jWyQiA.css" media="all" />
+<link rel="stylesheet" href="http://www.calstatela.edu/sites/default/files/css/css_zBgAVnkYFykgFcsom5l7hUFDVTszhc3fmUXbLJd1Vb8.css" media="all" />
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.5/jquery.min.js'>\x3C/script>")</script>
+<script src="http://www.calstatela.edu/sites/default/files/js/js_125Jxg9unfxE-jbTyBR6pVZvc_EsO0IpzySRXY_G1xY.js"></script>
+<script src="http://www.calstatela.edu/sites/default/files/js/js_y-Pm0yo7yomsCpXGY6gM-alQ2WrQ0FgxCjDht-cFVNY.js"></script>
+<script src="http://www.calstatela.edu/sites/default/files/js/js_tp9OGUk7JtU7DDZD9luIclBhwoEZeAqvYt1jeRG0fO4.js"></script>
+<script src="http://www.calstatela.edu/sites/default/files/js/js_DuCBxVBnmwlqi-FUiwD_uvjmLVBk6uphM_23_gbOteI.js"></script>
+<script>jQuery.extend(Drupal.absolute_messages, {"dismiss":{"status":false,"warning":false,"error":false},"dismiss_time":{"status":"","warning":"","error":""},"dismiss_all_count":2});</script>
+<script src="http://www.calstatela.edu/sites/default/files/js/js_RJejLK_kvNzNjRh0sloaN8QpLcJWos94OmWbUNtq4fs.js"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-6540001-1"]);_gaq.push(["_trackPageview", "/404.html?page=" + document.location.pathname + document.location.search + "&from=" + document.referrer]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="http://ecatalog.calstatela.edu/widget-api/widget-api.min.js"></script>
+<script src="http://www.calstatela.edu/sites/default/files/js/js_qFeT8I60wN4RA_TzVcMy_flK9jHYlIaj-Jtyp1gRMeQ.js"></script>
+<script src="http://www.calstatela.edu/sites/default/files/js/js_iqcjr1BLdAgso9S0SPg2NznkN-3wJL4z-HwPivfeLJ0.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"csula_theme","theme_token":"f1ke4fBnii0E5KMHJQIOkiPMTUfhiVNi-wtoq2UmTTE","js":{"sites\/all\/modules\/contrib\/uniform\/uniform.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.5.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"misc\/ui\/jquery.ui.tabs.min.js":1,"misc\/jquery.ba-bbq.js":1,"modules\/overlay\/overlay-parent.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_ui_filter\/jquery_ui_filter.js":1,"sites\/all\/modules\/contrib\/contentanalysis\/contentanalysis.js":1,"sites\/all\/modules\/contrib\/contentoptimizer\/contentoptimizer.js":1,"sites\/all\/modules\/custom\/csula_custom\/csula_custom.js":1,"sites\/all\/modules\/custom\/csula_menu\/js\/csula_menu.js":1,"sites\/all\/modules\/contrib\/jquery_ui_filter\/accordion\/jquery_ui_filter_accordion.js":1,"sites\/all\/modules\/contrib\/jquery_ui_filter\/tabs\/jquery_ui_filter_tabs.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/modules\/contrib\/absolute_messages\/absolute_messages.js":1,"1":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/contrib\/fancybox\/fancybox.js":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.pack.js":1,"sites\/all\/libraries\/fancybox\/lib\/jquery.mousewheel-3.0.6.pack.js":1,"sites\/all\/modules\/contrib\/scroll_to_top\/scroll_to_top.js":1,"sites\/all\/libraries\/uniform\/jquery.uniform.min.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"2":1,"http:\/\/ecatalog.calstatela.edu\/widget-api\/widget-api.min.js":1,"modules\/toolbar\/toolbar.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/contrib\/superfish\/superfish.js":1,"sites\/all\/themes\/custom\/csula_theme\/js\/script.js":1},"css":{"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"misc\/ui\/jquery.ui.tabs.css":1,"modules\/overlay\/overlay-parent.css":1,"sites\/all\/modules\/contrib\/scroll_to_top\/scroll_to_top.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/custom\/csula_menu\/css\/csula_menu.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_appliance\/theme\/google_appliance.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/flickr\/flickr.css":1,"sites\/all\/modules\/contrib\/absolute_messages\/absolute_messages.css":1,"sites\/all\/libraries\/colorbox\/example1\/colorbox.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.css":1,"0":1,"sites\/all\/libraries\/uniform\/themes\/default\/css\/uniform.default.css":1,"sites\/all\/modules\/contrib\/uniform\/uniform.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"public:\/\/ctools\/css\/d41d8cd98f00b204e9800998ecf8427e.css":1,"modules\/shortcut\/shortcut.css":1,"modules\/toolbar\/toolbar.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/themes\/custom\/csula_theme\/system.menus.css":1,"sites\/all\/themes\/custom\/csula_theme\/css\/normalize.css":1,"sites\/all\/themes\/custom\/csula_theme\/css\/styles.css.less":1,"public:\/\/css_injector\/css_injector_1.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"fancybox":[],"jQueryUiFilter":{"disabled":0,"accordionHeaderTag":"h3","accordionOptions":{"active":0,"animated":"slide","autoHeight":"false","clearStyle":"false","collapsible":"true","event":"click","scrollTo":0,"history":"false"},"tabsOptions":{"collapsible":"false","event":"click","fx":0,"paging":0,"selected":"","scrollTo":0,"history":"true"},"tabsHeaderTag":"h3"},"overlay":{"paths":{"admin":"node\/*\/webform\nnode\/*\/webform\/*\nnode\/*\/webform-results\nnode\/*\/webform-results\/*\nnode\/*\/submission\/*\nnode\/*\/outline\nnode\/*\/outline\/remove\nnode\/*\/access\nfield-collection\/*\/*\/edit\nfield-collection\/*\/*\/delete\nfield-collection\/*\/add\/*\/*\nfile\/add\nfile\/add\/*\nfile\/*\/edit\nfile\/*\/usage\nfile\/*\/delete\nuser\/*\/linkchecker\nlinkchecker\/*\/edit\nmedia\/*\/edit\/*\nmedia\/*\/format-form\nmedia\/browser\nmedia\/browser\/*\nnode\/*\/edit\nnode\/*\/delete\nnode\/*\/revisions\nnode\/*\/revisions\/*\/revert\nnode\/*\/revisions\/*\/delete\nnode\/add\nnode\/add\/*\nnode\/*\/nodequeue\nnode\/*\/accessibility\nnode\/*\/accessibility\/*\/revision\nnode\/*\/group\ngroup\/*\/*\/admin\/*\noverlay\/dismiss-message\nuser\/*\/shortcuts\nadmin\/config\/people\/simplesamlphp_auth\nadmin\nadmin\/*\nbatch\ntaxonomy\/term\/*\/edit\nuser\/*\/cancel\nuser\/*\/edit\nuser\/*\/edit\/*\nnode\/*\/moderation\ndevel\/*\nnode\/*\/devel\nnode\/*\/devel\/*\ncomment\/*\/devel\ncomment\/*\/devel\/*\nuser\/*\/devel\nuser\/*\/devel\/*\ntaxonomy\/term\/*\/devel\ntaxonomy\/term\/*\/devel\/*","non_admin":"admin\/structure\/block\/demo\/*\nadmin\/reports\/status\/php"},"pathPrefixes":[],"ajaxCallback":"overlay-ajax"},"scroll_to_top":{"label":"Back to top"},"uniform":{"selectors":["select"],"not":"#webform-emails-form select, #webform-email-edit-form select, #webform-configure-form select, .workbench-moderation-moderate-form select, .webform-component-select select, .webform-datepicker select, .webform-component-webform_time select"},"extlink":{"extTarget":"_blank","extClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":".same-window, #advSearch, .advSearchTitle","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"superfish":{"7":{"id":"7","sf":{"animation":{"opacity":"show","height":"show"},"speed":"\u0027fast\u0027","autoArrows":false,"dropShadows":true,"disableHI":false},"plugins":{"supposition":true,"bgiframe":false,"supersubs":{"minWidth":"12","maxWidth":"27","extraWidth":1}}}},"tableHeaderOffset":"Drupal.toolbar.height"});</script>
+      <!--[if lt IE 9]>
+    <script src="/sites/all/themes/contrib/zen/js/html5-respond.js"></script>
+    <![endif]-->
+  </head>
+<body class="html not-front logged-in one-sidebar sidebar-first page-ecst page-ecst-ece page-ecst-ece-labs page-ecst-ece-labs-pdf page-ecst-ece-labs-pdf-equipment page-ecst-ece-labs-pdf-equipment-analyzer page-ecst-ece-labs-pdf-equipment-analyzer-2710pdf toolbar toolbar-drawer section-ecst" >
+      <p id="skip-link">
+      <a href="#md1" class="element-invisible element-focusable">Skip to content</a>
+    </p>
+      <div class="region region-page-top">
+    <div id="overlay-disable-message" class="clearfix"><h3 class="element-invisible">Options for the administrative overlay</h3><a href="/user/33746/edit?destination=ecst/ece/labs/pdf/Equipment/Analyzer/2710.pdf#edit-overlay-control" id="overlay-profile-link" class="overlay-exclude element-invisible">If you have problems accessing administrative pages on this site, disable the overlay on your profile page.</a> <a href="/overlay/dismiss-message?destination=ecst/ece/labs/pdf/Equipment/Analyzer/2710.pdf&amp;token=g2DOS16MkU0Gz8EiGQbXsCB4pehI3JawOjBFfQs6xaw" id="overlay-dismiss-message" class="overlay-exclude element-invisible">Dismiss this message.</a></div><div id="toolbar" class="toolbar overlay-displace-top clearfix">
+  <div class="toolbar-menu clearfix">
+    <ul id="toolbar-home"><li class="home first last"><a href="/" title="Home"><span class="home-link">Home</span></a></li>
+</ul>    <ul id="toolbar-user"><li class="account first"><a href="/user" title="User account">Hello <strong>moberme</strong></a></li>
+<li class="logout last"><a href="/user/logout?current=ecst/ece/labs/pdf/Equipment/Analyzer/2710.pdf">Log out</a></li>
+</ul>              <a href="/toolbar/toggle?destination=ecst/ece/labs/pdf/Equipment/Analyzer/2710.pdf" title="Hide shortcuts" class="toggle toggle-active">Hide shortcuts</a>      </div>
+
+  <div class="toolbar-drawer clearfix">
+    <div class="toolbar-shortcuts"></div>  </div>
+</div>
+  </div>
+  
+<header id="header" role="banner">
+    <div class="header__region region region-header">
+    <div id="block-nodeblock-398136" class="block block-nodeblock search-form block-search contextual-links-region first last odd">
+
+      
+  <div id="node-398136" class="node node-block contextual-links-region view-mode-full clearfix">
+
+        
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items" id="md1"><div class="field-item even"><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+#search-input {
+    background-color: #fff;
+    color: #222;
+    padding-left: 3px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    -moz-border-radius: 8px 0 0 8px;
+    -webkit-border-radius: 8px 0 0 8px;
+}
+#search-btn {
+    background-color: #ffce00;
+    color: #000;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    -moz-border-radius: 0 8px 8px 0;
+    -webkit-border-radius: 0 8px 8px 0;
+}
+.front .block-search {
+    margin-top: 6px;
+}
+
+/*--><!]]>*/
+</style><form action="/block/searchblox" method="get"><label class="element-invisible" for="search-input">Search Cal State LA: </label><input id="search-input" name="query" placeholder="Search" type="text" /><input name="page" type="hidden" value="1" /><input name="sort" type="hidden" value="relevance" /><input name="sortdir" type="hidden" value="desc" /><input name="pagesize" type="hidden" value="10" /><input name="col" type="hidden" value="12" /><button id="search-btn" type="submit"><i aria-labelledby="search-btn" class="fa fa-search" style="color: #000;"> </i><span class="element-invisible">Search</span></button></form>
+</div></div></div>  </div>
+
+  
+  
+</div>
+
+</div>
+  </div>
+</header>
+
+<div id="navigation">
+    <div class="region region-navigation">
+    <div id="block-nodeblock-10" class="block block-nodeblock logo-block contextual-links-region first odd">
+
+      
+  <div id="node-10" class="node node-block contextual-links-region view-mode-full clearfix">
+
+        
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items" id="md2"><div class="field-item even"><p><a href="/"><img alt="Cal State LA logo" src="/sites/default/files/groups/California%20State%20University%2C%20Los%20Angeles/badge.svg" style="width: 54px;" /></a></p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+
+</div>
+<div id="block-csula-custom-title" class="block block-csula-custom csula-front-title-block no-mobile contextual-links-region last even">
+
+      
+  <h1>California State University, Los Angeles</h1>
+</div>
+  </div>
+</div><!-- /#navigation -->
+
+<div id="banner-wrapper">
+  <div id="banner">
+      <div class="region region-banner">
+    <div id="block-superfish-7" class="block block-superfish main-menu-block no-mobile contextual-links-region first odd">
+
+      
+  <ul id="superfish-7" class="menu sf-menu sf-menu-z-ecst-horizontal-menu sf-horizontal sf-style-none sf-total-items-7 sf-parent-items-5 sf-single-items-2"><li id="menu-24036-7" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/ecst" title="ECST Homepage" class="sf-depth-1">ECST Home</a></li><li id="menu-24046-7" class="middle even sf-item-2 sf-depth-1 sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="/ecst" title="ECST Homepage" class="sf-depth-1 menuparent">Students</a><ul><li id="menu-24461-7" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="http://www.csumentor.edu" class="sf-depth-2">APPLY TO Cal State LA</a></li><li id="menu-67201-7" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="http://www.calstatela.edu/ecst/scholarships" class="sf-depth-2">Resources</a></li><li id="menu-72081-7" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="http://www.calstatela.edu/ecst/success/clubs-and-organizations" class="sf-depth-2">Student Organizations</a></li><li id="menu-24411-7" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/ecst/success" class="sf-depth-2">ECST Student Success Center</a></li><li id="menu-26661-7" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="http://www.calstatela.edu/ecst/sass/mesa-engineering-program-mep" class="sf-depth-2">MESA Engineering Program (MEP)</a></li><li id="menu-58141-7" class="last even sf-item-6 sf-depth-2 sf-no-children"><a href="/ecst/ecst-it-help" class="sf-depth-2">ECST IT Student Help</a></li></ul></li><li id="menu-24056-7" class="middle odd sf-item-3 sf-depth-1 sf-total-children-5 sf-parent-children-2 sf-single-children-3 menuparent"><a href="/ecst" title="ECST Homepage" class="sf-depth-1 menuparent">Faculty/Staff</a><ul><li id="menu-33246-7" class="first odd sf-item-1 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/ecst" title="ECST Faculty" class="sf-depth-2 menuparent">ECST Faculty</a><ul><li id="menu-26546-7" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/ecst/ce/faculty" title="Civil Engineering Faculty" class="sf-depth-3">CE Faculty</a></li><li id="menu-56531-7" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/ecst/cs/faculty" class="sf-depth-3">CS Faculty</a></li><li id="menu-70556-7" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/ecst/ece/faculty" class="sf-depth-3">ECE Faculty</a></li><li id="menu-26521-7" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/ecst/me/faculty" title="Mechanical Engineering Faculty" class="sf-depth-3">ME Faculty</a></li><li id="menu-70131-7" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="http://www.calstatela.edu/ecst/tech/faculty" class="sf-depth-3">TECH FACULTY</a></li></ul></li><li id="menu-30531-7" class="middle even sf-item-2 sf-depth-2 sf-total-children-6 sf-parent-children-0 sf-single-children-6 menuparent"><a href="/ecst" title="ECST Lecturers" class="sf-depth-2 menuparent">ECST Lecturers</a><ul><li id="menu-33416-7" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/ecst/ce-lecturers" title="CE Lecturers" class="sf-depth-3">CE Lecturers</a></li><li id="menu-33446-7" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/ecst/cs-lecturers" title="CS Lecturers" class="sf-depth-3">CS Lecturers</a></li><li id="menu-33476-7" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/ecst/ece-lecturers" title="ECE Lecturers" class="sf-depth-3">ECE Lecturers</a></li><li id="menu-34016-7" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/ecst/ecst-student-success-center-lecturers" title="ECST Student Success Center Lecturers" class="sf-depth-3">ENGR Lecturers</a></li><li id="menu-33691-7" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/ecst/me-lecturers" title="ME Lecturers" class="sf-depth-3">ME Lecturers</a></li><li id="menu-33711-7" class="last even sf-item-6 sf-depth-3 sf-no-children"><a href="/ecst/tech-lecturers" title="TECH Lecturers" class="sf-depth-3">TECH Lecturers</a></li></ul></li><li id="menu-26686-7" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/ecst/ecst-staff-and-deans-administrators" title="ECST Staff" class="sf-depth-2">ECST Staff and Dean&#039;s Administrators</a></li><li id="menu-25611-7" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/ecst/department-coordinators" title="Department Coordinators" class="sf-depth-2">ECST Department Coordinators</a></li><li id="menu-58136-7" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/ecst/ecst-it-help" class="sf-depth-2">ECST IT Faculty Help</a></li></ul></li><li id="menu-24061-7" class="middle even sf-item-4 sf-depth-1 sf-total-children-3 sf-parent-children-2 sf-single-children-1 menuparent"><a href="/ecst" title="ECST Homepage" class="sf-depth-1 menuparent">Academics</a><ul><li id="menu-24576-7" class="first odd sf-item-1 sf-depth-2 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/ecst" title="" class="sf-depth-2 menuparent">Departments</a><ul><li id="menu-24581-7" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/ecst/ce" title="" class="sf-depth-3">Civil Engineering (CE)</a></li><li id="menu-24586-7" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/ecst/ece" class="sf-depth-3">Electrical and Computer Engineering (ECE)</a></li><li id="menu-24591-7" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/ecst/me" title="" class="sf-depth-3">Mechanical Engineering (ME)</a></li><li id="menu-24601-7" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/ecst/cs" title="" class="sf-depth-3">Computer Science (CS)</a></li><li id="menu-24606-7" class="last odd sf-item-5 sf-depth-3 sf-no-children"><a href="/ecst/tech" title="" class="sf-depth-3">Technology (TECH)</a></li></ul></li><li id="menu-24466-7" class="middle even sf-item-2 sf-depth-2 sf-total-children-9 sf-parent-children-0 sf-single-children-9 menuparent"><a href="/ecst" class="sf-depth-2 menuparent">Undergraduate Programs</a><ul><li id="menu-24491-7" class="first odd sf-item-1 sf-depth-3 sf-no-children"><a href="/ecst/ce" class="sf-depth-3">Civil Engineering</a></li><li id="menu-24471-7" class="middle even sf-item-2 sf-depth-3 sf-no-children"><a href="/ecst/ece" class="sf-depth-3">Electrical Engineering</a></li><li id="menu-24481-7" class="middle odd sf-item-3 sf-depth-3 sf-no-children"><a href="/ecst/me" class="sf-depth-3">Mechanical Engineering</a></li><li id="menu-33216-7" class="middle even sf-item-4 sf-depth-3 sf-no-children"><a href="/ecst/biomedical-engineering" class="sf-depth-3">Biomedical Engineering (Minor Only)</a></li><li id="menu-24506-7" class="middle odd sf-item-5 sf-depth-3 sf-no-children"><a href="/ecst/cs" class="sf-depth-3">Computer Science</a></li><li id="menu-33186-7" class="middle even sf-item-6 sf-depth-3 sf-no-children"><a href="http://www.calstatela.edu/ecst/tech" class="sf-depth-3">Aviation Administration</a></li><li id="menu-33191-7" class="middle odd sf-item-7 sf-depth-3 sf-no-children"><a href="http://www.calstatela.edu/ecst/tech" class="sf-depth-3">Fire Protection Administration</a></li><li id="menu-24511-7" class="middle even sf-item-8 sf-depth-3 sf-no-children"><a href="http://www.calstatela.edu/ecst/tech" class="sf-depth-3">Industrial Technology </a></li><li id="menu-33211-7" class="last odd sf-item-9 sf-depth-3 sf-no-children"><a href="http://www.calstatela.edu/ecst/tech" class="sf-depth-3">Graphic Communications</a></li></ul></li><li id="menu-69686-7" class="last odd sf-item-3 sf-depth-2 sf-no-children"><a href="http://www.calstatela.edu/ecst/graduatestudies" class="sf-depth-2">Graduate Programs</a></li></ul></li><li id="menu-24066-7" class="middle odd sf-item-5 sf-depth-1 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/ecst" title="ECST Homepage" class="sf-depth-1 menuparent">Research/Projects</a><ul><li id="menu-33141-7" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/ecst/h2station" title="" class="sf-depth-2">H2 Station</a></li><li id="menu-24616-7" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/ecst/research" class="sf-depth-2">Research</a></li><li id="menu-24631-7" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/ecst/student-competition-projects" class="sf-depth-2">Student Competition Projects</a></li><li id="menu-34036-7" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/ecst/seniordesign" class="sf-depth-2">Capstone Senior Design Program</a></li><li id="menu-70116-7" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/ecst/makerspace" class="sf-depth-2">ECST MakerSpace</a></li></ul></li><li id="menu-30516-7" class="middle even sf-item-6 sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="http://www.calstatela.edu/ecst" title="ECST Homepage" class="sf-depth-1 menuparent">Community Engagement</a><ul><li id="menu-24646-7" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/ecst/deans-advisory-board" class="sf-depth-2">Dean&#039;s Advisory Board</a></li><li id="menu-69826-7" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="http://www.calstatela.edu/ecst/success/pre-college-outreach-programs" class="sf-depth-2">Pre-College Programs</a></li><li id="menu-70486-7" class="last odd sf-item-3 sf-depth-2 sf-no-children"><a href="http://www.calstatela.edu/ecst/success/launchpad" class="sf-depth-2">LAunchPad</a></li></ul></li><li id="menu-24071-7" class="last odd sf-item-7 sf-depth-1 sf-no-children"><a href="/ecst/give-ecst" title="ECST Homepage" class="sf-depth-1">Giving</a></li></ul>
+</div>
+<div class="mobile-menu-popout"><div id="block-csula-menu-responsive-menu" class="block block-csula-menu mobile contextual-links-region even">
+
+      
+  <div class="menu-block-wrapper menu-block-responsive_menu menu-name-menu-z-ecst-horizontal-menu parent-mlid-0 menu-level-0">
+  <ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-24036"><a href="/ecst" title="ECST Homepage" class="menu__link sf-depth-1">ECST Home</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-24046"><a href="/ecst" title="ECST Homepage" class="menu__link sf-depth-1 menuparent">Students</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-24461"><a href="http://www.csumentor.edu" class="menu__link">APPLY TO Cal State LA</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-67201"><a href="http://www.calstatela.edu/ecst/scholarships" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-72081"><a href="http://www.calstatela.edu/ecst/success/clubs-and-organizations" class="menu__link">Student Organizations</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-24411"><a href="/ecst/success" class="menu__link sf-depth-2">ECST Student Success Center</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-26661"><a href="http://www.calstatela.edu/ecst/sass/mesa-engineering-program-mep" class="menu__link">MESA Engineering Program (MEP)</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-58141"><a href="/ecst/ecst-it-help" class="menu__link sf-depth-2">ECST IT Student Help</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-24056"><a href="/ecst" title="ECST Homepage" class="menu__link sf-depth-1 menuparent">Faculty/Staff</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-33246"><a href="/ecst" title="ECST Faculty" class="menu__link sf-depth-2 menuparent">ECST Faculty</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-26546"><a href="/ecst/ce/faculty" title="Civil Engineering Faculty" class="menu__link sf-depth-3">CE Faculty</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-56531"><a href="/ecst/cs/faculty" class="menu__link sf-depth-3">CS Faculty</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-70556"><a href="/ecst/ece/faculty" class="menu__link sf-depth-3">ECE Faculty</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-26521"><a href="/ecst/me/faculty" title="Mechanical Engineering Faculty" class="menu__link sf-depth-3">ME Faculty</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-70131"><a href="http://www.calstatela.edu/ecst/tech/faculty" class="menu__link">TECH FACULTY</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-30531"><a href="/ecst" title="ECST Lecturers" class="menu__link sf-depth-2 menuparent">ECST Lecturers</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-33416"><a href="/ecst/ce-lecturers" title="CE Lecturers" class="menu__link sf-depth-3">CE Lecturers</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-33446"><a href="/ecst/cs-lecturers" title="CS Lecturers" class="menu__link sf-depth-3">CS Lecturers</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-33476"><a href="/ecst/ece-lecturers" title="ECE Lecturers" class="menu__link sf-depth-3">ECE Lecturers</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-34016"><a href="/ecst/ecst-student-success-center-lecturers" title="ECST Student Success Center Lecturers" class="menu__link sf-depth-3">ENGR Lecturers</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-33691"><a href="/ecst/me-lecturers" title="ME Lecturers" class="menu__link sf-depth-3">ME Lecturers</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-33711"><a href="/ecst/tech-lecturers" title="TECH Lecturers" class="menu__link sf-depth-3">TECH Lecturers</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-26686"><a href="/ecst/ecst-staff-and-deans-administrators" title="ECST Staff" class="menu__link sf-depth-2">ECST Staff and Dean&#039;s Administrators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-25611"><a href="/ecst/department-coordinators" title="Department Coordinators" class="menu__link sf-depth-2">ECST Department Coordinators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-58136"><a href="/ecst/ecst-it-help" class="menu__link sf-depth-2">ECST IT Faculty Help</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-24061"><a href="/ecst" title="ECST Homepage" class="menu__link sf-depth-1 menuparent">Academics</a><ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-24576"><a href="/ecst" title="" class="menu__link sf-depth-2 menuparent">Departments</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-24581"><a href="/ecst/ce" title="" class="menu__link sf-depth-3">Civil Engineering (CE)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24586"><a href="/ecst/ece" class="menu__link sf-depth-3">Electrical and Computer Engineering (ECE)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24591"><a href="/ecst/me" title="" class="menu__link sf-depth-3">Mechanical Engineering (ME)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24601"><a href="/ecst/cs" title="" class="menu__link sf-depth-3">Computer Science (CS)</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-24606"><a href="/ecst/tech" title="" class="menu__link sf-depth-3">Technology (TECH)</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-24466"><a href="/ecst" class="menu__link sf-depth-2 menuparent">Undergraduate Programs</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-24491"><a href="/ecst/ce" class="menu__link sf-depth-3">Civil Engineering</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24471"><a href="/ecst/ece" class="menu__link sf-depth-3">Electrical Engineering</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24481"><a href="/ecst/me" class="menu__link sf-depth-3">Mechanical Engineering</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-33216"><a href="/ecst/biomedical-engineering" class="menu__link sf-depth-3">Biomedical Engineering (Minor Only)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24506"><a href="/ecst/cs" class="menu__link sf-depth-3">Computer Science</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-33186"><a href="http://www.calstatela.edu/ecst/tech" class="menu__link">Aviation Administration</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-33191"><a href="http://www.calstatela.edu/ecst/tech" class="menu__link">Fire Protection Administration</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24511"><a href="http://www.calstatela.edu/ecst/tech" class="menu__link">Industrial Technology </a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-33211"><a href="http://www.calstatela.edu/ecst/tech" class="menu__link">Graphic Communications</a></li>
+</ul></li>
+<li class="menu__item is-leaf last leaf menu-mlid-69686"><a href="http://www.calstatela.edu/ecst/graduatestudies" class="menu__link">Graduate Programs</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-24066"><a href="/ecst" title="ECST Homepage" class="menu__link sf-depth-1 menuparent">Research/Projects</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-33141"><a href="/ecst/h2station" title="" class="menu__link sf-depth-2">H2 Station</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24616"><a href="/ecst/research" class="menu__link sf-depth-2">Research</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-24631"><a href="/ecst/student-competition-projects" class="menu__link sf-depth-2">Student Competition Projects</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-34036"><a href="/ecst/seniordesign" class="menu__link sf-depth-2">Capstone Senior Design Program</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-70116"><a href="/ecst/makerspace" class="menu__link sf-depth-2">ECST MakerSpace</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-30516"><a href="http://www.calstatela.edu/ecst" title="ECST Homepage" class="menu__link">Community Engagement</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-24646"><a href="/ecst/deans-advisory-board" class="menu__link sf-depth-2">Dean&#039;s Advisory Board</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-69826"><a href="http://www.calstatela.edu/ecst/success/pre-college-outreach-programs" class="menu__link">Pre-College Programs</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-70486"><a href="http://www.calstatela.edu/ecst/success/launchpad" class="menu__link">LAunchPad</a></li>
+</ul></li>
+<li class="menu__item is-expanded last expanded menu-mlid-24071"><a href="/ecst/give-ecst" title="ECST Homepage" class="menu__link sf-depth-1">Giving</a></li>
+</ul></div>
+
+</div>
+</div><div id="block-csula-menu-responsive-button" class="block block-csula-menu mobile contextual-links-region last odd">
+
+      
+  <a href="/" class="mobile-menu-popout-link">Menu</a>
+</div>
+  </div>
+</div></div><!-- /#banner -->
+
+<div id="banner-bottom">
+  </div><!-- /#banner-bottom -->
+
+<div id="page-wrapper"><div id="page">
+  <div id="content-header">
+       </div><!-- /#content-header -->
+
+  <div id="main">
+    <div id="content" class="column" role="main">
+                  <a id="main-content"></a>
+                    <h1 class="title" id="page-title">Page not found</h1>
+                                          
+
+
+The requested page "/ecst/ece/labs/pdf/Equipment/Analyzer/2710.pdf" could not be found.<meta  itemscope="" itemid="http://www.calstatela.edu/block/searchblox-header-search" itemref="md1" /><meta  itemscope="" itemid="http://www.calstatela.edu/block/logo" itemref="md2" /><meta  itemscope="" itemid="http://www.calstatela.edu/block/ecst-college-block" itemref="md3" /><meta  itemscope="" itemid="http://www.calstatela.edu/block/footer-social-media-links" itemref="md4" /><meta  itemscope="" itemid="http://www.calstatela.edu/block/copyright-block" itemref="md5" /><meta  itemscope="" itemid="http://www.calstatela.edu/block/footer-accessibility-plug-button" itemref="md6" />          </div><!-- /#content -->
+
+    
+          <aside class="sidebars">
+          <section class="region region-sidebar-first column sidebar">
+    <div id="block-nodeblock-316766" class="block block-nodeblock contextual-links-region first last odd">
+
+      
+  <div id="node-316766" class="node node-block contextual-links-region view-mode-full clearfix">
+
+        
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items" id="md3"><div class="field-item even"><h2 class="lowerCase" style="margin-top: 0px;"><a href="http://www.calstatela.edu/univ/ppa/publicat/cal-state-la-ranked-among-best-universities-west-us-news-world-report#.W5hBhRUv3YQ.facebook"><img alt="USNews2018_ENGR logo" src="/sites/default/files/groups/College%20of%20Engineering%2C%20Computer%20Science%2C%20and%20Technology/usnews2018_engr.png" style="width: 150px; height: 150px;" /></a> </h2>
+
+<h2 class="lowerCase" style="margin-top: 0px;"><a href="http://www.calstatela.edu/ecst/events#overlay-context=ecst/events" style="color: rgb(0, 17, 204);"><img alt="Events ECST" src="/sites/default/files/groups/College%20of%20Engineering%2C%20Computer%20Science%2C%20and%20Technology/drupal-buttons_events_grey.jpg" style="font-size: 13px; font-weight: normal; width: 200px; height: 30px;" /></a></h2>
+
+<p><a href="https://www.facebook.com/CalStateLAECST/"><img alt="facebook ECST" src="/sites/default/files/users/u24826/social-media-buttons-icon-2016_facebook.jpg" style="width: 30px; height: 41px;" /></a> <a href="https://twitter.com/calstatelaecst?lang=en"><img alt="twitter ECST" src="/sites/default/files/users/u24826/social-media-buttons-icon-2016_twitter.jpg" style="width: 30px; height: 41px;" /></a> <a href="https://www.linkedin.com/edu/school?id=43553&amp;trk=tyah&amp;trkInfo=clickedVertical%3Aschool%2CclickedEntityId%3A43553%2Cidx%3A1-1-1%2CtarId%3A1484851360176%2Ctas%3Acollege ecst"><img alt="linkedin ECST" src="/sites/default/files/users/u24826/social-media-buttons-icon-2016_linkedin.jpg" style="width: 30px; height: 41px;" /></a> <a href="https://www.youtube.com/channel/UCkdYmuQg7DyJm0kgpp78Eqw"><img alt="youtube ECST" src="/sites/default/files/users/u24826/social-media-buttons-icon-2016_youtube.jpg" style="width: 30px; height: 41px;" /></a></p>
+
+<p><a href="https://www.calstatela.edu/givenow/secured/give-college-engineering-computer-science-and-technology"><img alt="Give to ECST " src="/sites/default/files/groups/College%20of%20Engineering%2C%20Computer%20Science%2C%20and%20Technology/drupal-buttons_grey_give_2_0.jpg" style="width: 200px; height: 30px;" /></a></p>
+
+<p><a href="http://www.calstatela.edu/academic/position/college-engineering-computer-science-technology-position-announcements"><img alt="ECST Open Positions" src="/sites/default/files/groups/College%20of%20Engineering%2C%20Computer%20Science%2C%20and%20Technology/drupal-buttons_grey_give_2.jpg" style="width: 200px; height: 30px;" /></a></p>
+
+<p><a href="https://www.surveymonkey.com/r/ZHVSFPQ"><img alt="Suggestions to ECST" src="/sites/default/files/groups/College%20of%20Engineering%2C%20Computer%20Science%2C%20and%20Technology/drupal-buttons_grey_suggest_2.jpg" style="width: 200px; height: 30px;" /></a></p>
+
+<hr /><p style="text-align: center;"> </p>
+
+<p><a class="twitter-timeline" data-dnt="true" data-widget-id="354695883499134976" href="https://twitter.com/csulaecst" width="100%">Tweets by @csulaecst</a> <script>
+<!--//--><![CDATA[// ><!--
+!function(d,s,id){var 
+js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+//--><!]]>
+</script></p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+
+</div>
+  </section>
+
+              </aside><!-- /.sidebars -->
+    
+  </div><!-- /#main -->
+
+  
+</div></div><!-- /#page -->
+<div id="bottom">
+    <div class="region region-bottom">
+    <div id="block-menu-block-1" class="block block-menu-block footer-menu-block contextual-links-region first odd" role="navigation">
+
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-29611"><a href="/student" class="menu__link">Students</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-36376"><a href="/gfdrc" class="menu__link">Undocumented Students</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-64621"><a href="/vets" class="menu__link">Military &amp; Veteran Students</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1206"><a href="http://asicsula.org/" class="menu__link">Student Government (ASI)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1181"><a href="http://www.calstatelausu.org/studentorglist" class="menu__link">Organizations</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2126"><a href="/housing" class="menu__link">Housing and Residence Life</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1231"><a href="/univ/osd" class="menu__link">Disability Services</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1196"><a href="/univ/calendar/" title="University calendar of events" class="menu__link">Events</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1191"><a href="http://www.calstatelausu.org/leadership-academy" class="menu__link">Leadership</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1201"><a href="http://www.calstatelausu.org/" class="menu__link">University Student Union</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1211"><a href="http://www.csulauniversitytimes.com/" class="menu__link">University Times</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-43866"><a href="http://www.calstatela.edu/goldeneagleradio" class="menu__link">Golden Eagle Radio</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-8321"><a href="/admissions" title="Admissions" class="menu__link">Future students</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-18786"><a href="/admissions" class="menu__link">Admissions</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1025"><a href="http://www.calstate.edu/apply" title="Cal State Apply" class="menu__link">Apply Online</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1261"><a href="http://www.calstatela.edu/financialaid" class="menu__link">Financial Aid and Scholarships</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1271"><a href="/housing" class="menu__link">Housing and Residence Life</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1321"><a href="/univ/osd" class="menu__link">Disability Services</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-8401"><a href="/international" class="menu__link">International Office</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-9231"><a href="/orientation" class="menu__link">Orientation Program</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-9236"><a href="/recruit" class="menu__link">Outreach and Recruitment</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-1101"><a href="/faculty-staff" class="menu__link">Faculty &amp; Staff</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1106"><a href="http://www.calstatela.edu/hrm" class="menu__link">Human Resources Mgmt</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-18056"><a href="/academicpersonnel" target="_self" class="menu__link">Faculty Affairs</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-59206"><a href="/academicsenate" class="menu__link">Academic Senate</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-36941"><a href="/cetl" class="menu__link">Center for Effective Teaching and Learning</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-18081"><a href="/advancement" class="menu__link">Alumni &amp; Giving</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1226"><a href="http://www.calstatela.edu/advancement/foundation" class="menu__link">Cal State LA Foundation</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1071"><a href="http://alumni.calstatela.edu/" class="menu__link">Alumni Association</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-1241"><a href="https://campaign.calstatela.edu/give/" title="Give Now" class="menu__link">Give to Cal State LA</a></li>
+</ul></li>
+<li class="menu__item is-expanded expanded menu-mlid-1111"><a href="/community-partners" class="menu__link">Community Partners</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1281"><a href="http://www.goabl.org/partnerssupporters.html" class="menu__link">Academy of Business Leadership</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1116"><a href="/univ/stuaffrs/epic" class="menu__link">EPIC</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1286"><a href="http://www.lachsa.net/" class="menu__link">LACHSA</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1291"><a href="http://www.pasadenabiosci.com/" class="menu__link">Pasadena Bioscience Collaborative</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1316"><a href="http://www.patbrowninstitute.org/" class="menu__link">Pat Brown Institute</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-64791"><a href="https://www.propel.la/" class="menu__link">Propel LA</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-9241"><a href="/engagement" class="menu__link">Service Learning</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-1306"><a href="http://www.sternmass.org/" class="menu__link">Stern MASS</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-1311"><a href="http://www.thesae.k12.ca.us/" class="menu__link">The School of Arts Enterprise</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-8326"><a href="/academicaffairs" class="menu__link">Academics</a></li>
+<li class="menu__item is-expanded expanded menu-mlid-2101"><a href="/main/campus-resources" class="menu__link">Campus Resources</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-65626"><a href="http://www.calstatela.edu/sites/default/files/groups/Department of Public Safety/campus_safety_report/2018_campus_safety_plan.pdf" class="menu__link">Campus Safety Plan</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-4346"><a href="/tours" class="menu__link">Campus Tours</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2141"><a href="http://www.calstatela.edu/univ/cdc" title="Academics-Career Center" class="menu__link">Career Center</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2161"><a href="/abacc" class="menu__link">Children&#039;s Center</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-46746"><a href="http://www.calstatela.edu/police/clery-disclosure-report" class="menu__link">Clery Report</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-65846"><a href="/commencement" class="menu__link">Commencement</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-62681"><a href="/food-on-campus" class="menu__link">Food on Campus</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-65851"><a href="/graduation" class="menu__link">Graduation Office</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2156"><a href="/studenthealthcenter" class="menu__link">Health Center</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2106"><a href="http://www.luckmanarts.org/" class="menu__link">Luckman Fine Arts Complex</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2136"><a href="/police" class="menu__link">Public Safety and Parking</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-71136"><a href="/hrm/oedi-title-ix" class="menu__link">Title IX</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2131"><a href="/uas" class="menu__link">University Auxiliary Services</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2166"><a href="http://calstate-la.bncollege.com" class="menu__link">University Bookstore</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-60941"><a href="/internalauditor" class="menu__link">University Internal Auditor</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-31661"><a href="/tutorialcenter" class="menu__link">University Tutorial Center</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-9386"><a href="/uwc" class="menu__link">University Writing Center</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2081"><a href="http://lagoldeneagles.com" class="menu__link">Athletics</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2086"><a href="http://www.calstate.edu/apply" title="Cal State Apply" class="menu__link">Apply Online</a></li>
+</ul></div>
+
+</div>
+<div id="block-nodeblock-286921" class="block block-nodeblock footer-social-media-block contextual-links-region even">
+
+      
+  <div id="node-286921" class="node node-block contextual-links-region view-mode-full clearfix">
+
+        
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items" id="md4"><div class="field-item even"><ul class="social-media-links-footer"><li><a class="twitter" href="https://twitter.com/calstatela">Cal State LA on Twitter</a></li>
+	<li><a class="snapchat" href="https://www.snapchat.com/add/calstatelaedu">Cal State LA on Snapchat</a></li>
+	<li><a class="facebook" href="https://www.facebook.com/CalStateLA">Cal State LA on Facebook</a></li>
+	<li><a class="linkedin" href="http://www.linkedin.com/edu/california-state-university-los-angeles-17829">Cal State LA on LinkedIn</a></li>
+	<li><a class="instagram" href="http://instagram.com/calstatela">Cal State LA on Instagram</a></li>
+</ul></div></div></div>  </div>
+
+  
+  
+</div>
+
+</div>
+<div id="block-nodeblock-13" class="block block-nodeblock copyright-block contextual-links-region odd">
+
+      
+  <div id="node-13" class="node node-block contextual-links-region view-mode-full clearfix">
+
+        
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items" id="md5"><div class="field-item even"><p>5151 State University Drive, Los Angeles, CA 90032 (323) 343-3000<br /><span class="small-text">&copy; 2018 Trustees of the California State University</span></p></div></div></div>  </div>
+
+  
+  
+</div>
+
+</div>
+<div id="block-nodeblock-286926" class="block block-nodeblock accessibility-button-block contextual-links-region last even">
+
+      
+  <div id="node-286926" class="node node-block contextual-links-region view-mode-full clearfix">
+
+        
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items" id="md6"><div class="field-item even"><p><a class="accessibility-button" href="/plugins">File Viewers</a></p></div></div></div>  </div>
+
+  
+  
+</div>
+
+</div>
+  </div>
+</div>
+  <script src="http://www.calstatela.edu/sites/default/files/js/js_JFEmmXo0WGTf-VDPbRqy2ex8YmLFIFfbKgpxdtLLeZM.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"25d948e959","applicationID":"56250291","transactionName":"Y1RUN0AHXBVQWkJQWloeYxFbSVsIVVxOF0VcQQ==","queueTime":0,"applicationTime":715,"atts":"TxNXQQgdTxs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
