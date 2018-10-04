@@ -22,3 +22,18 @@ f2 {
   letter-spacing: 1px;
 }
 
+/*<body bgcolor="#1D2731"> Irory Black*/ 
+
+
+a:link {
+    color: #328cc1;
+}
+
+/* visited link */
+a:visited {
+    color: #d9b310;
+}
+
+table{
+    
+}
