@@ -18,9 +18,26 @@ f1 {
 f2 {
   font-weight: 100;
   font-variant-ligatures: normal;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   letter-spacing: 1px;
 }
+
+f3 {
+  font-weight: 100;
+  font-variant-ligatures: normal;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  color: red;
+}
+
+f4 {
+  font-weight: 100;
+  font-variant-ligatures: normal;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: red;
+}
+
 
 /*<body bgcolor="#1D2731"> Irory Black*/ 
 
